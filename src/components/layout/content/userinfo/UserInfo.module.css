@@ -1,0 +1,11 @@
+.mainContainer {
+  color: transparent;
+}
+
+.table {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  margin-top: 50px;
+  margin-left: 0px;
+}

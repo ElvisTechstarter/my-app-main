@@ -1,0 +1,7 @@
+.mainContainer {
+  width: 100vw;
+  min-height: 500px;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+}
