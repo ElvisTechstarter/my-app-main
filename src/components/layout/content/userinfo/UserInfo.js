@@ -1,11 +1,12 @@
-import AppData from "../../../../utils/AppData";
 import styles from "./UserInfo.module.css";
+import Label from "../../../common/props/Label";
 
 function UserInfo() {
   return (
-    <div className={styles.mainContainer}>
-      <div className={styles.table} />
-      {AppData.name}
+    <div>
+      <Label className={styles.mainContainer} text="99 Beiträge"></Label>
+      <Label className={styles.mainContainer} text="1000 Follower"></Label>
+      <Label className={styles.mainContainer} text="200 Gefolgt"></Label>
     </div>
   );
 }
