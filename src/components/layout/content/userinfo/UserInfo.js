@@ -1,10 +1,10 @@
-import AppInfo from "../../../../utils/AppInfo";
+import AppData from "../../../../utils/AppData";
 import styles from "./UserInfo.module.css";
 
 function UserInfo() {
   return (
     <div className={styles.mainContainer}>
-      <div className={styles.table} src={AppInfo.logo} alt="" />
+      <div className={styles.table} src={AppData.name} alt="" />
     </div>
   );
 }
