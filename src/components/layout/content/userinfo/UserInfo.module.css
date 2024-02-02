@@ -1,4 +1,7 @@
-.mainContainer {
-  margin-top: 100px;
-  justify-content: space-between;
+.info {
+  padding: 5px;
+}
+
+.statisctics {
+  padding: 5px;
 }
