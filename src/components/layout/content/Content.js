@@ -5,8 +5,12 @@ import UserInfo from "./userinfo/UserInfo";
 function Content() {
   return (
     <div className={styles.mainContainer}>
-      <UserImg />
-      <UserInfo />
+      <div className={styles.userimg}>
+        <UserImg />
+      </div>
+      <div className={styles.userinfo}>
+        <UserInfo />
+      </div>
     </div>
   );
 }

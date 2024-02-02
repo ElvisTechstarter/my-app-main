@@ -3,5 +3,14 @@
   min-height: 500px;
   background-color: rgb(193, 179, 179);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.userimg {
+  margin-left: 200px;
+}
+
+.userinfo {
+  margin-top: 50px;
+  margin-right: 300px;
 }
