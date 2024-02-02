@@ -1,12 +1,18 @@
-import styles from "./UserInfo.module.css";
-import Label from "../../../common/props/Label";
+import DatabaseResponse from "../../../common/props/DatabaseResponse";
 
 function UserInfo() {
   return (
     <div>
-      <Label className={styles.mainContainer} text="99 Beiträge"></Label>
-      <Label className={styles.mainContainer} text="1000 Follower"></Label>
-      <Label className={styles.mainContainer} text="200 Gefolgt"></Label>
+      <div>
+        Name: {DatabaseResponse.profile.name}
+        Age: {DatabaseResponse.profile.age}
+        City: {DatabaseResponse.profile.address}
+      </div>
+      <div>
+        Follower Count: {DatabaseResponse.profile.followerCount}
+        Following Count: {DatabaseResponse.profile.followingCount}
+        Post Count: {DatabaseResponse.profile.postCount}
+      </div>
     </div>
   );
 }
